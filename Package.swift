@@ -9,6 +9,6 @@ let package = Package(
         .library(name: "YPDrawSignature", targets: ["YPDrawSignature"])
     ],
     targets: [
-        .target(name: "YPDrawSignature")
+        .target(name: "YPDrawSignature", path: "Sources")
     ]
 )
